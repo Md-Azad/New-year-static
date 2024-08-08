@@ -13,6 +13,51 @@ body{
 
 
 .header-container{
-    border: 3px solid olivedrab;
-
+    height: 600px;
+    background-image: url("../images/BannerImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
 }
+
+.header-container> p{
+    font-size: 2rem;
+}
+.header-container>h1{
+    font-size: 4.5rem;
+}
+.off div{
+    width: 50%;
+}
+
+.off{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.off-info h1{
+    color:  rgb(255, 0, 0);
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+.off-info p{
+    color:  rgb(255, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.off-info h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
