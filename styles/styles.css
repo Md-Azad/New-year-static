@@ -143,3 +143,59 @@ body {
     color:white;
     text-transform: uppercase;
 }
+
+/* coming soon section styles start here */
+
+.coming-soon{
+    width: 1320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    align-items: center;
+    
+}
+
+.best-offer h4{
+    color:rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.best-offer h1{
+    color: rgb(7, 2, 17);
+    font-size: 3rem;
+    font-weight: 900;
+    
+}
+.best-offer p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 1.25rem;
+    font-family: "Inter",sans-serif;
+}
+
+
+
+.round-img{
+    border:1rem solid red;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 50%;
+    
+}
+
+.happy-new-year h2{
+    color:rgb(255, 0, 0);
+    font-size: 3rem;
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+}
+
+.happy-new-year p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 1.25rem;
+    font-family: "Inter",sans-serif;
+    margin-bottom: 2rem;
+}
+
